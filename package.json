@@ -1,0 +1,30 @@
+{
+  "name": "node_task",
+  "version": "1.0.0",
+  "description": "MyNodeJsTask",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmakoff/NodeJsAuthBytutor.git"
+  },
+  "author": "Makov_Yuriy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmakoff/NodeJsAuthBytutor/issues"
+  },
+  "homepage": "https://github.com/jmakoff/NodeJsAuthBytutor#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.8.5",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  }
+}
